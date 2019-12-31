@@ -1,0 +1,49 @@
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.exe.config
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.exe
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.csprojResolveAssemblyReference.cache
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Form1.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Main.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Properties.Resources.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.csproj.GenerateResource.Cache
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.exe
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.Video.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.Video.DirectShow.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\zxing.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\zxing.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.attendancePage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.qrCodeGenerator.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\bin\Debug\MessagingToolkit.QRCode.dll
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.welcomePage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.ManageCRUDPage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.CreateRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.DeleteRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.UpdateRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.exe.config
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.exe
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.exe
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\Attendance System Manager.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\MessagingToolkit.QRCode.dll
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.Video.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\AForge.Video.DirectShow.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\zxing.pdb
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\bin\Debug\zxing.xml
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.csprojResolveAssemblyReference.cache
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.attendancePage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.CreateRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.DeleteRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Form1.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Main.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.ManageCRUDPage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Properties.Resources.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.qrCodeGenerator.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.UpdateRecord.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.welcomePage.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance System Manager.csproj.GenerateResource.Cache
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.ViewAllRecords.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.Manual_Attendance.resources
+D:\PROJECTS\C# Work\Attendance System using QRcode\Attendance-System\Attendance System Manager\Attendance System Manager\obj\Debug\Attendance_System_Manager.SearchRecord.resources

@@ -1,0 +1,7 @@
+The path of Database is relative you need to change if you move your project database to new path.
+
+Database contain 2 Tables i.e.
+- Records_Table (ID, Full_Name, Surname, Email, Gender, DateOfBirth, Phone_No, Address)
+- Attendance_Table (ID, Time_B, Date_A, Date_dd, Date_mm, Date_yyyy)
+
+Name attribute as metioned otherwise Error will occur.

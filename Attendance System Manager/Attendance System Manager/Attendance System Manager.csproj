@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8644F57A-E6BA-45F3-9188-D3C4CFDDB3C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Attendance_System_Manager</RootNamespace>
+    <AssemblyName>Attendance System Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>C:\Users\samee\Desktop\ZXING\ZXING\bin\Debug\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>C:\Users\samee\Desktop\ZXING\ZXING\bin\Debug\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>C:\Users\samee\Desktop\ZXING\ZXING\bin\Debug\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing">
+      <HintPath>C:\Users\samee\Desktop\ZXING\ZXING\bin\Debug\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="attendancePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="attendancePage.Designer.cs">
+      <DependentUpon>attendancePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateRecord.Designer.cs">
+      <DependentUpon>CreateRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.Designer.cs">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCRUDPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManageCRUDPage.Designer.cs">
+      <DependentUpon>ManageCRUDPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual_Attendance.Designer.cs">
+      <DependentUpon>Manual_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qrCodeGenerator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="qrCodeGenerator.Designer.cs">
+      <DependentUpon>qrCodeGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchRecord.Designer.cs">
+      <DependentUpon>SearchRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UpdateRecord.Designer.cs">
+      <DependentUpon>UpdateRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewAllRecords.Designer.cs">
+      <DependentUpon>ViewAllRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="welcomePage.Designer.cs">
+      <DependentUpon>welcomePage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="attendancePage.resx">
+      <DependentUpon>attendancePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateRecord.resx">
+      <DependentUpon>CreateRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRecord.resx">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCRUDPage.resx">
+      <DependentUpon>ManageCRUDPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Attendance.resx">
+      <DependentUpon>Manual_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="qrCodeGenerator.resx">
+      <DependentUpon>qrCodeGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchRecord.resx">
+      <DependentUpon>SearchRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRecord.resx">
+      <DependentUpon>UpdateRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAllRecords.resx">
+      <DependentUpon>ViewAllRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcomePage.resx">
+      <DependentUpon>welcomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-masthead.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendancesystem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-icon-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overtime_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qr_code_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qr_code_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qr_code_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8daa4286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-stop-button-3d-shiny-glass-icon-vector-22314075.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_new_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renew_subscription_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_file_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_file_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_file_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_file_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noPhotoAvailable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\synchronize_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_database_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept_database_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_invoices_50px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
